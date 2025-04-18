@@ -53,7 +53,7 @@
                 <button
                   type="button"
                   class="btn text-light"
-                  style="background-color: #023e8a"
+                  onclick="window.location.href='login.html'"
                 >
                   <img class="person" src="/images/User.SVG.png" height="25" />
                   Log in
@@ -80,15 +80,24 @@
             <img
               class="img-fluid"
               src="/images/campaign.jpg"
-              style="width: 100%;"
+              style="width: 100%"
             />
           </div>
           <div class="col p-0" id="square3"></div>
           <div
-            class="col p-0 d-flex align-items-center justify-content-center"
+            class="col pt-5 d-flex flex-column align-items-center justify-content-center"
             id="square4"
           >
             <p id="Log_in">Press the button to Log in</p>
+            <button
+              type="button"
+              class="btn text-light"
+              style="background-color: #023e8a"
+              id="btn_log_in"
+              onclick="window.location.href='login.html'"
+            >
+              Log in
+            </button>
           </div>
         </div>
       </div>
@@ -104,47 +113,14 @@
           <a href="#" class="text-decoration-none text-white mx-3">Press kit</a>
         </div>
         <div class="mb-3">
-          <a href="#" class="text-white mx-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-twitter"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.01-.422A6.68 6.68 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.084.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.286 3.286 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-              />
-            </svg>
+          <a href="https://www.facebook.com" target="_blank" class=" mx-2">
+           <img src="/images/facebook.png" width="40" height="40" alt="facebook">
           </a>
-          <a href="#" class="text-white mx-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-youtube"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8.051 1.999c-3.254 0-6.223.275-6.51.305C.417 2.34.03 3.215 0 5.606v4.787c.03 2.392.417 3.268 1.541 3.301.287.03 3.256.305 6.51.305s6.223-.275 6.51-.305c1.124-.033 1.51-.909 1.541-3.301V5.606c-.03-2.391-.417-3.267-1.541-3.3-.287-.03-3.256-.307-6.51-.307zM6.51 6.987v2.107l2.303-1.054-2.303-1.053z"
-              />
-            </svg>
+          <a href="https://instagram.com" class="mx-2">
+            <img src="images/instagram.png" width="40" height="40" alt="instagram" >
           </a>
-          <a href="#" class="text-white mx-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-facebook"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8.75 8.5H10l.5-2H8.75V5.5c0-.538.097-.75.75-.75H10V3h-1.25C7.346 3 7 3.896 7 4.75V6.5H6v2h1v5h1.75v-5z"
-              />
-            </svg>
+          <a href="https://twitter.com" class="mx-2">
+            <img src="images/twitter.png" width="40" height="40" alt="twitter" >
           </a>
         </div>
         <div class="text-muted small">
@@ -163,3 +139,6 @@
     ></script>
   </body>
 </html>
+ 
+
+    
