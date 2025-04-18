@@ -1,0 +1,70 @@
+
+#navbarText {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+#navbar_page{
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #0077b6; 
+    position: fixed;
+}
+.nav-item {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#square3{
+  width: 600px;
+  height: 350px;
+  background-color: #ffe9d0;
+  position:relative;
+
+}
+
+#square1 {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #03045e;
+  text-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+#Log_in {
+  height: 600px;
+  width: 389px;
+  align-items: center;
+  display: flex;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #03045e;
+
+  text-shadow: 0px 7px 6px rgba(0, 0, 0, 0.25);
+}
+
+#square4 {
+    background-color: #ffffff;
+    height: 300px;
+    width: 600px;
+  }
+
+  #square2 {
+    width: 600px;
+  }
+
+
