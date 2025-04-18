@@ -100,7 +100,7 @@
 }
 
 @media (max-width: 768px) {
-  #circles {
+  #circle,#circle2,#circle3 {
     display: none !important;
   }
 }
