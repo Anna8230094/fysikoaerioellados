@@ -1,0 +1,143 @@
+#navbar_page {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #0077b6;
+    position: fixed;
+}
+#navbarText {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* DAsbord */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.sidebar {
+  width: 260px;
+  background: #fff;
+  height: 100vh;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border-right: 3px solid #3d5afe;
+  font-family: Arial, sans-serif;
+}
+
+.nav-icon {
+  font-size: 24px;
+  color: #3d5afe;
+  padding: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3d5afe;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 12px;
+  cursor: pointer;
+  height: 44px;
+}
+
+.nav-item:hover {
+  background-color: rgba(61, 90, 254, 0.1);
+  border-radius: 10px;
+}
+
+.nav-item.active {
+    position: relative;
+    width: 200px;
+    height: 54px;
+    top: 0;
+    background: rgba(63, 109, 237, 0.58);
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white; /* optional: white text for contrast */
+}
+
+.icon-badge {
+  position: relative;
+}
+
+.icon-badge .badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: #3d5afe;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.icon-right {
+  font-size: 18px;
+}
+
+.sub-items {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.sub-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #3d5afe;
+}
+
+.sub-item {
+  color: #3d5afe;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* selected 
+
+position: absolute;
+width: 286px;
+height: 54px;
+left: 44px;
+top: 219px;
+
+background: rgba(63, 109, 237, 0.58);
+border-radius: 20px; */
+
+
+/* 
+box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 711px;
+left: 0px;
+top: 114px;
+
+background: #FFFFFF;
+border: 4px solid #291AF6; */
