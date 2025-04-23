@@ -1,0 +1,103 @@
+/* Author Anna Maria Megalou */
+
+#navbar_page {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #0077b6;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  #navbarText {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+    color: white;
+  }
+  
+  /* Προσθέτουμε padding για να κατέβει το περιεχόμενο κάτω από το navbar */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #aabdf4;
+    padding-top: 80px; /* ίδιο με το ύψος του navbar */
+  }
+  
+  /* Υπόλοιπο CSS παραμένει σχεδόν ίδιο */
+  
+  .person {
+    width: 70px;  
+    height: 70px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px; /* Κάτω από το navbar (80px + λίγο περιθώριο) */
+    padding-bottom: 40px;
+  }
+  
+  .form-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-box h2 {
+    text-align: center;
+    color: #3200c4;
+    margin-bottom: 20px;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #369efb;
+    border-radius: 15px;
+    background-color: #d3c5f5;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #d3c5f5;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #369efb;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #369efb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
