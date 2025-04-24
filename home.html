@@ -12,6 +12,11 @@
     />
     <link rel="stylesheet" href="home.css" />
   </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+  <script src="home.js"></script>
+  
 
   <body>
     <header class="pb-5">
@@ -64,15 +69,15 @@
           <input type="text" placeholder="duration - dd/mm/yyyy - dd/mm/yyyy" />
           <input type="text" placeholder="requirement 1" />
           <input type="text" placeholder="requirement 2" />
-          <div id="extraFields"></div>
-          <button type="button" id="addFieldBtn" class="save-button" style="background-color: #00b894; margin-bottom: 40px;">
+          <div id="extraRequirements"></div>
+          <button type="button" id="addRequirementBtn" class="save-button" style="background-color: #00b894; margin-bottom: 40px;">
             + Add requirement
           </button>
           <table>
           <input type="text" placeholder="criteria 1" />
           <input type="text" placeholder="criteria 2" />
-          <div id="extraFields"></div>
-          <button type="button" id="addFieldBtn" class="save-button" style="background-color: #00b894; margin-top: 15px;">
+          <div id="extraCriteria"></div>
+          <button type="button" id="addCriteriaBtn" class="save-button" style="background-color: #00b894; margin-top: 15px;">
             + Add criteria
           </button>
           <table>
@@ -85,7 +90,6 @@
             <tbody>
               <tr><td></td><td></td></tr>
               <tr><td></td><td></td></tr>
-              <!-- more rows as needed -->
             </tbody>
           </table>
       

@@ -1,4 +1,4 @@
-/* Author Anna Maria Megalou */
+/* Author Valeria Soumelidi */
 
 #navbar_page {
     width: 100%;
@@ -25,15 +25,14 @@
     color: white;
   }
   
-  /* Προσθέτουμε padding για να κατέβει το περιεχόμενο κάτω από το navbar */
   body {
     margin: 0;
     font-family: sans-serif;
     background-color: #aabdf4;
-    padding-top: 80px; /* ίδιο με το ύψος του navbar */
+    padding-top: 80px; 
   }
   
-  /* Υπόλοιπο CSS παραμένει σχεδόν ίδιο */
+
   
   .person {
     width: 70px;  
@@ -47,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 100px; /* Κάτω από το navbar (80px + λίγο περιθώριο) */
+    margin-top: 100px; 
     padding-bottom: 40px;
   }
   
@@ -63,8 +62,17 @@
     text-align: center;
     color: #3200c4;
     margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #291AF6;
+    width: 432px;
+    height: 56px;
   }
   
+
   .form-box input {
     width: 100%;
     padding: 10px;
