@@ -1,0 +1,225 @@
+#navbar_page {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #0077b6;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  #navbarText {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+    color: white;
+  }
+  
+  /* Προσθέτουμε padding για να κατέβει το περιεχόμενο κάτω από το navbar */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #aabdf4;
+    padding-top: 80px; /* ίδιο με το ύψος του navbar */
+  }
+  
+  /* Υπόλοιπο CSS παραμένει σχεδόν ίδιο */
+  
+  .person {
+    width: 70px;  
+    height: 70px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }   
+  
+  .word1 {
+    position: absolute;
+    width: 348px;
+    height: 35px;
+    top: 229px;
+    left: 247px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #291AF6
+  }
+
+  .word2{
+    position: absolute;
+    width: 396px;
+    height: 35px;
+    top: 232px;
+    left: 845px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #291AF6
+  }
+
+  .word3{
+    position: absolute;
+    width: 396px;
+    height: 35px;
+    top: 713px;
+    left: 579px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #291AF6
+  }
+
+  .bar-3d {
+    position: absolute;
+    top: 312px;
+    left: 210px;
+    width: 421px;
+    height: 308px;
+    background-color: steelblue;
+    box-shadow:
+      1px -1px 1px lightgrey,
+      2px -2px 1px lightgrey,
+      3px -3px 1px lightgrey,
+      4px -4px 1px lightgrey,
+      5px -5px 1px lightgrey,
+      6px -6px 1px lightgrey,
+      7px -7px 1px lightgrey,
+      8px -8px 1px lightgrey,
+      9px -9px 1px lightgrey,
+      10px -10px 1px lightgrey;
+  }
+  
+  .pie {
+    position: absolute;
+    top: 312px;
+    left: 839px;
+    border-radius: 50%;
+    width: 368.65px;
+    height: 312px;
+    overflow: hidden;
+    background: linear-gradient(-21deg, #2196f3 50%, transparent 50%), linear-gradient(to right, #2196f3 50%, #ffc107 50%);
+  }
+  
+  .html {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    left: 55%;
+  }
+  
+  .css {
+    position: absolute;
+    font-size: 20px;
+    top: 65%;
+    left: 30%;
+  }
+
+  *,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.donut {
+  --donut-size: 300px;
+  --donut-border-width: 20px;
+  --donut-spacing: 0;
+  --donut-spacing-color: 255, 255, 255;
+  --donut-spacing-deg: calc(1deg * var(--donut-spacing));
+  height: 443px; 
+  width: 786px; 
+  top: 750px;    
+  left: 230px;
+  border-radius: 50%;
+  height: var(--donut-size);
+  margin: 40px;
+  position: relative;
+  width: var(--donut-size);
+}
+
+.donut__label {
+  left: 50%;
+  line-height: 1.5;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.donut__label__heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.donut__label__sub {
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.donut__slice {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.donut__slice::before,
+.donut__slice::after {
+  border: var(--donut-border-width) solid rgba(0,0,0,0);
+  border-radius: 50%;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(45deg);
+  width: 100%;
+}
+
+.donut__slice__first::before {
+  border-top-color: #FF6838;
+  transform: rotate(calc(360deg * 0));
+}
+
+.donut__slice__second::before {
+  border-top-color: #FFC820;
+  transform: rotate(calc(360deg * 0.4));
+}
+
+.donut__slice__third::before {
+  border-top-color: #97C95C;
+  transform: rotate(calc(360deg * 0.73));
+}
+
+.donut__slice__fourth::before {
+  border-top-color: #1CB2F6;
+  transform: rotate(calc(360deg * 0.85));
+}
+
+.donut__slice__fifth::before {
+  border-top-color: #1685B8;
+  transform: rotate(calc(360deg * 0.93));
+}
+
+.donut__slice::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
