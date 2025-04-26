@@ -90,6 +90,7 @@
     width: 421px;
     height: 308px;
     background-color: steelblue;
+    /* Προσθήκη shadow για το 3D εφέ */
     box-shadow:
       1px -1px 1px lightgrey,
       2px -2px 1px lightgrey,
