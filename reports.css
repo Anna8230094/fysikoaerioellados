@@ -1,3 +1,4 @@
+/* Navbar */
 #navbar_page {
     width: 100%;
     z-index: 1000;
@@ -12,130 +13,166 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   }
   
-  #navbarText {
-    margin: 0;
-    color: white;
-    font-size: 20px;
-  }
-  
-  .nav-item {
-    margin: 0 20px;
-    color: white;
-  }
-  
-  /* Προσθέτουμε padding για να κατέβει το περιεχόμενο κάτω από το navbar */
   body {
     margin: 0;
     font-family: sans-serif;
     background-color: #aabdf4;
-    padding-top: 80px; /* ίδιο με το ύψος του navbar */
+    padding-top: 80px;
   }
   
-  /* Υπόλοιπο CSS παραμένει σχεδόν ίδιο */
-  
+  /* Person image */
   .person {
-    width: 70px;  
+    width: 70px;
     height: 70px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 50%;
     margin-right: 20px;
   }
   
-  .container {
+  .dashboard-container {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-  }   
-  
-  .word1 {
-    position: absolute;
-    width: 348px;
-    height: 35px;
-    top: 229px;
-    left: 247px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: sans-serif;
-    color: #291AF6
-  }
-
-  .word2{
-    position: absolute;
-    width: 396px;
-    height: 35px;
-    top: 232px;
-    left: 845px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: sans-serif;
-    color: #291AF6
-  }
-
-  .word3{
-    position: absolute;
-    width: 396px;
-    height: 35px;
-    top: 713px;
-    left: 579px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: sans-serif;
-    color: #291AF6
-  }
-
-  .bar-3d {
-    position: absolute;
-    top: 312px;
-    left: 210px;
-    width: 421px;
-    height: 308px;
-    background-color: steelblue;
-    /* Προσθήκη shadow για το 3D εφέ */
-    box-shadow:
-      1px -1px 1px lightgrey,
-      2px -2px 1px lightgrey,
-      3px -3px 1px lightgrey,
-      4px -4px 1px lightgrey,
-      5px -5px 1px lightgrey,
-      6px -6px 1px lightgrey,
-      7px -7px 1px lightgrey,
-      8px -8px 1px lightgrey,
-      9px -9px 1px lightgrey,
-      10px -10px 1px lightgrey;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
   }
   
+  .top-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .bottom-row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Sections */
+  .section {
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px; /* μικρότερο padding-top */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Titles */
+  .word {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #291AF6;
+    margin-bottom: 55px;
+  }
+  
+  .chart {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: center;
+    height: 320px;
+    width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .bar {
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .bar::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    right: 5px;
+    bottom: -5px;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  /* Αυξάνεται το ύψος με κάθε μπάρα */
+  .bar1 {
+    height: 100px;
+    background-color: #007bff;
+  }
+  
+  .bar2 {
+    height: 150px;
+    background-color: #28a745;
+  }
+  
+  .bar3 {
+    height: 200px;
+    background-color: #dc3545;
+  }
+  
+  .bar4 {
+    height: 250px;
+    background-color: #ffc107;
+  }
+  
+  .bar5 {
+    height: 300px;
+    background-color: #17a2b8;
+  }
+  
+  .label {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Pie chart */
   .pie {
-    position: absolute;
-    top: 312px;
-    left: 839px;
+    position: relative;
+    width: 100%;
+    height: 320px;
+    max-width: 350px;
     border-radius: 50%;
-    width: 368.65px;
-    height: 312px;
     overflow: hidden;
+    margin: auto;
     background: linear-gradient(-21deg, #2196f3 50%, transparent 50%), linear-gradient(to right, #2196f3 50%, #ffc107 50%);
   }
   
-  .html {
+  .html, .css {
     position: absolute;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .html {
     top: 20%;
     left: 55%;
   }
   
   .css {
-    position: absolute;
-    font-size: 20px;
     top: 65%;
     left: 30%;
   }
-
-  *,
-  *::after,
-  *::before {
-    box-sizing: border-box;
-  }
   
-  .donut {
+/* Global Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Donuts container */
+.donuts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.donut {
     --donut-size: 300px;
     --donut-border-width: 20px;
     --donut-spacing: 0;
@@ -191,7 +228,7 @@
   
   .donut__slice__first::before {
     border-top-color: #FF6838;
-    transform: rotate(calc(360deg * 0));
+    transform: rotate(calc(360deg * 0.20));
   }
   
   .donut__slice__second::before {
@@ -201,34 +238,82 @@
   
   .donut__slice__third::before {
     border-top-color: #97C95C;
-    transform: rotate(calc(360deg * 0.73));
+    transform: rotate(calc(360deg * 0.60));
   }
   
   .donut__slice__fourth::before {
-    border-top-color: #1CB2F6;
-    transform: rotate(calc(360deg * 0.85));
+    border-top-color: #8613a9;
+    transform: rotate(calc(360deg * 0.8));
   }
   
   .donut__slice__fifth::before {
-    border-top-color: #1685B8;
-    transform: rotate(calc(360deg * 0.93));
+    border-top-color: #d71bbe;
+    transform: rotate(calc(360deg * 0.95));
+  }
+
+/* Responsive */
+@media (max-width: 800px) {
+  .donuts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donut {
+    --donut-size: 220px;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+    .chart {
+      width: 100%;
+      height: 250px;
+      justify-content: space-evenly;
+    }
+  
+    .bar {
+      width: 40px;
+    }
+  
+    .bar1 {
+      height: 80px;
+    }
+  
+    .bar2 {
+      height: 120px;
+    }
+  
+    .bar3 {
+      height: 160px;
+    }
+  
+    .bar4 {
+      height: 200px;
+    }
+  
+    .bar5 {
+      height: 240px;
+    }
+  
+    .label {
+      font-size: 12px;
+    }
   }
   
-  .donut1 {
-    top: 730px;
-    left: 200px;
-    background-color: #48CAE4;
-  }
+  @media (max-width: 500px) {
+    .chart {
+      width: 100%;
+      height: 200px;
+      flex-direction: column;
+      justify-content: center;
+    }
   
-  .donut2 {
-    top: 410px;
-    left: 600px;
-    background-color: #48CAE4;
-  }
+    .bar {
+      width: 60px;
+      margin-bottom: 10px;
+    }
   
-  .donut3 {
-    top: 90px;
-    left: 1000px;
-    background-color: #48CAE4;
+    .label {
+      font-size: 10px;
+    }
   }
-  
