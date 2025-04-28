@@ -78,10 +78,11 @@
   }
   
   .bar {
-    width: 60px;
+    width: 92px;
     display: inline-block;
     position: relative;
     border-radius: 10px;
+    font-weight: bold;
   }
   
   .bar::before {
@@ -139,21 +140,21 @@
     background: linear-gradient(-21deg, #2196f3 50%, transparent 50%), linear-gradient(to right, #2196f3 50%, #ffc107 50%);
   }
   
-  .html, .css {
+  .piece1, .piece2 {
     position: absolute;
     font-size: 16px;
     font-weight: bold;
     color: #000;
   }
   
-  .html {
+  .piece1 {
     top: 20%;
-    left: 55%;
+    left: 41%;
   }
   
-  .css {
+  .piece2 {
     top: 65%;
-    left: 30%;
+    left: 20%;
   }
   
 /* Global Reset */
