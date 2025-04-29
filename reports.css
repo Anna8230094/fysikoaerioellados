@@ -14,13 +14,13 @@
   }
   
   .navbar-text {
-    margin-left: 20px; /* ή δοκίμασε 20px για μεγαλύτερη μετατόπιση */
+    margin-left: 20px;
   }
   
   body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #aabdf4;
+    background-color: rgba(63, 109, 237, 0.44);
     padding-top: 80px;
   }
   
