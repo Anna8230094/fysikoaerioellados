@@ -28,12 +28,10 @@
   body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #aabdf4;
+    background: rgba(63, 109, 237, 0.44);
     padding-top: 80px; 
   }
-  
-
-  
+ 
   .person {
     width: 70px;  
     height: 70px;
@@ -77,9 +75,9 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 40px;
-    border: 2px solid #369efb;
-    border-radius: 15px;
-    background-color: #d3c5f5;
+    border: 2px solid #0077B6;
+    border-radius: 25px;
+    background-color: #D9D3F6;
   }
   
   table {
@@ -94,14 +92,14 @@
   th, td {
     text-align: center;
     padding: 8px;
-    border: 1px solid #369efb;
+    border: 1px solid #0077B6;
   }
   
   .save-button {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #369efb;
+    background-color: #0077B6;
     border: none;
     color: white;
     font-size: 16px;
