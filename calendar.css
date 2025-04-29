@@ -1,5 +1,6 @@
-
+/* DAsbord */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&display=swap");
+
 #navbarText {
   margin-top: 20px;
   margin-left: 30px;
@@ -14,20 +15,12 @@
   position: fixed;
 }
 
+
 #nav_item {
   margin-right: 20px;
   margin-left: 20px;
 }
 
-.sidebar {
-  width: 260px;
-  background: #fff;
-  height: 100vh;
-  padding-top:10px;
-  box-sizing: border-box;
-  border-right: 4px solid #3d5afe;
-  font-family: Arial, sans-serif;
-}
 
 .nav-icon {
   font-size: 24px;
@@ -42,6 +35,8 @@
 }
 
 body {
+  padding-left: 0px;
+  margin-left: 0px;
   align-items: center;
   font-family: "Poppins", serif;
   background: rgb(238, 174, 202);
@@ -63,7 +58,7 @@ body {
   padding: 10px 12px;
   cursor: pointer;
   height: 44px;
-} 
+}
 
 .nav-item:hover {
   background-color: rgba(61, 90, 254, 0.1);
@@ -87,7 +82,10 @@ body {
 
 .icon-badge {
   position: relative;
+
 }
+
+
 
 .icon-badge .badge {
   position: absolute;
@@ -178,4 +176,18 @@ time {
 
 .today {
   background: #ffffff70;
+}
+
+.sidebar-nav{
+  background: radial-gradient(
+    circle,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.sidebar-header{
+  background: radial-gradient(
+    rgba(148, 187, 233, 1) 100%
+  );
+  
 }
