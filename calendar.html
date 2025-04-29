@@ -27,26 +27,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <img
                 class="navbar-item"
                 src="/images/fysiko aerio ellados mask.png"
               />
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <p class="navbar-text" style="color: aliceblue">
                 fysikoaerioellados
               </p>
             </li>
           </ul>
           <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <p class="navbar-item" style="color: aliceblue">Home</p>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <p class="navbar-item" style="color: aliceblue">Info</p>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <button
                 type="button"
                 class="btn text-light"
@@ -61,92 +61,94 @@
       </div>
     </nav>
   </header>
-
-
-  <div class="container-fluid">
-    <div class="row">
-
-      <div class="col-2" style="background: white; min-height: 100vh;">
-
-        <div class="sidebar">
-          <div class="nav-icon">
-
-            <nav class="nav-menu">
-              <a href="#" class="nav-item active">
-                <span>Calendar</span>
-                <span class="icon-badge">
-                  <img src="images/calendar.png" alt="Calendar" />
-                </span>
-              </a>
-
-              <a href="#" class="nav-item">
-                <span>Submit call data</span>
-                <img src="images/database.png" class="icon-right" alt="Submit call data" />
-              </a>
-
-              <a href="#" class="nav-item">
-                <span>Check Reports</span>
-                <img src="images/icon checkreports.png" class="icon-center" alt="Check Reports" />
-              </a>
-
-              <div class="nav-item">
-                <span>Data</span>
-                <img src="images/Data icon.png" class="icon-right" alt="Data" />
-
-              </div>
-
-              <div class="sub-items">
-                <div class="sub-line"></div>
-                <a href="#" class="sub-item">Insert data</a>
-                <a href="#" class="sub-item">Upgrade data</a>
-              </div>
-
-              <a href="#" class="nav-item">
-                <span>Check data errors</span>
-                <img src="images/Page-1.png" class="icon-right" alt="Check data errors" />
-              </a>
-            </nav>
+<!-- end of navbar -->
+  <div class="container-fluid pt-4">
+    <div class = "container-fluid pt-5 pe-0 ">
+      <div class="row">
+        <div class="col-2" style="background: white; min-height: 100vh;" >
+          <div class="sidebar">
+            <div class="nav-icon">
+              <nav class="nav-menu">
+                <a href="#" class="nav-item active" id = "dashboard1">
+                  <span>Calendar</span>
+                  <span class="icon-badge">
+                    <img src="images/calendar.png" alt="Calendar" />
+                  </span>
+                </a>
+  
+                <a href="#" class="nav-item" id = "dashboard">
+                  <span>Submit call data</span>
+                  <img src="images/database.png" class="icon-right" alt="Submit call data" />
+                </a>
+  
+                <a href="#" class="nav-item" id = "dashboard">
+                  <span>Check Reports</span>
+                  <img src="images/icon checkreports.png" class="icon-center" alt="Check Reports" />
+                </a>
+  
+                <div class="nav-item" id = "dashboard">
+                  <span>Data</span>
+                  <img src="images/Data icon.png" class="icon-right" alt="Data" />
+  
+                </div>
+  
+                <div class="sub-items">
+                  <div class="sub-line"></div>
+                  <a href="#" class="sub-item">Insert data</a>
+                  <a href="#" class="sub-item">Upgrade data</a>
+                </div>
+  
+                <a href="#" class="nav-item" id = "dashboard">
+                  <span>Check data errors</span>
+                  <img src="images/Page-1.png" class="icon-right" alt="Check data errors" />
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-10  justify-content-center align-items-start pt-5">
+          <div class="card bg-transparent pe-4 ms-5" style="width: 1300px;height: 55rem;">
+            <div class="container pt-4 ps-5" >
+              <h1  id = "h1_cal">February 2022</h1>
+              <p>Holidays and Daily Observances in the United States</a>
+            </div>
+            <ul class="pt-3" id="ul_calendar">
+              <li id="calendar"><time datetime="2022-02-01">1</time></li>
+              <li id="calendar"><time datetime="2022-02-02">2</time></li>
+              <li id="calendar"><time datetime="2022-02-03">3</time></li>
+              <li id="calendar"><time datetime="2022-02-04">4</time></li>
+              <li id="calendar"><time datetime="2022-02-05">5</time></li>
+              <li id="calendar"><time datetime="2022-02-06">6</time></li>
+              <li id="calendar"><time datetime="2022-02-07">7</time></li>
+              <li id="calendar"><time datetime="2022-02-08">8</time></li>
+              <li id="calendar"><time datetime="2022-02-09">9</time></li>
+              <li id="calendar"><time datetime="2022-02-10">10</time></li>
+              <li id="calendar"><time datetime="2022-02-11">11</time></li>
+              <li id="calendar"><time datetime="2022-02-12">12</time></li>
+              <li id="calendar"><time datetime="2022-02-13">13</time></li>
+              <li id="calendar"><time datetime="2022-02-14">14</time></li>
+              <li id="calendar"><time datetime="2022-02-15">15</time></li>
+              <li id="calendar"><time datetime="2022-02-16">16</time></li>
+              <li id="calendar"><time datetime="2022-02-17">17</time></li>
+              <li id="calendar"><time datetime="2022-02-18">18</time></li>
+              <li class="today" id="calendar"><time datetime="2022-02-19">19</time></li>
+              <li id="calendar"><time datetime="2022-02-20">20</time></li>
+              <li id="calendar"><time datetime="2022-02-21">21</time></li>
+              <li id="calendar"><time datetime="2022-02-22">22</time></li>
+              <li id="calendar"><time datetime="2022-02-23">23</time></li>
+              <li id="calendar"><time datetime="2022-02-24">24</time></li>
+              <li id="calendar"><time datetime="2022-02-25">25</time></li>
+              <li id="calendar"><time datetime="2022-02-26">26</time></li>
+              <li id="calendar"><time datetime="2022-02-27">27</time></li>
+              <li id="calendar"><time datetime="2022-02-28">28</time></li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-6 d-flex justify-content-center align-items-start" style="padding-top: 100px;">
-        <div class="card shadow p-4" style="width: 80%; max-width: 1000px;">
-          <h1>February 2022</h1>
-          <p>Call Plan for Campaigns</a>
-          <ul>
-            <li><time datetime="2022-02-01">1</time></li>
-            <li><time datetime="2022-02-02">2</time></li>
-            <li><time datetime="2022-02-03">3</time></li>
-            <li><time datetime="2022-02-04">4</time></li>
-            <li><time datetime="2022-02-05">5</time></li>
-            <li><time datetime="2022-02-06">6</time></li>
-            <li><time datetime="2022-02-07">7</time></li>
-            <li><time datetime="2022-02-08">8</time></li>
-            <li><time datetime="2022-02-09">9</time></li>
-            <li><time datetime="2022-02-10">10</time></li>
-            <li><time datetime="2022-02-11">11</time></li>
-            <li><time datetime="2022-02-12">12</time></li>
-            <li><time datetime="2022-02-13">13</time></li>
-            <li><time datetime="2022-02-14">14</time></li>
-            <li><time datetime="2022-02-15">15</time></li>
-            <li><time datetime="2022-02-16">16</time> </li>
-            <li><time datetime="2022-02-17">17</time></li>
-            <li><time datetime="2022-02-18">18</time></li>
-            <li class="today"><time datetime="2022-02-19">19</time></li>
-            <li><time datetime="2022-02-20">20</time></li>
-            <li><time datetime="2022-02-21">21</time></li>
-            <li><time datetime="2022-02-22">22</time></li>
-            <li><time datetime="2022-02-23">23</time></li>
-            <li><time datetime="2022-02-24">24</time></li>
-            <li><time datetime="2022-02-25">25</time></li>
-            <li><time datetime="2022-02-26">26</time></li>
-            <li><time datetime="2022-02-27">27</time></li>
-            <li><time datetime="2022-02-28">28</time></li>
-          </ul>
-        </div>
-      </div>
+
     </div>
+
   </div>
   </div>
 
