@@ -38,8 +38,7 @@
               <li class="nav-item">
                 <img
                   class="navbar-item"
-                  src="fysikoaerioellados\images\fysiko aerio ellados mask.png"
-                />
+                  img src="images/fysikoaerioelladosmask.png">
               </li>
               <li class="nav-item">
                 <p class="navbar-text" style="color: aliceblue">
@@ -54,7 +53,7 @@
                   class="btn text-light"
                   onclick="window.location.href='login.html'"
                 >
-                  <img class="person" src="fysikoaerioellados\images\man.png" height="25" />
+                  <img class="person" src="images/man.png" height="25" />
                   Valeria Soumelidi
                 </button>
               </li>
@@ -62,6 +61,7 @@
           </div>
         </div>
       </nav>
+    </header>
       <div class="container">
         <div class="form-box">
           <h2>Insert Data</h2>
@@ -70,32 +70,38 @@
           <input type="text" placeholder="requirement 1" />
           <input type="text" placeholder="requirement 2" />
           <div id="extraRequirements"></div>
-          <button type="button" id="addRequirementBtn" class="save-button" style="background-color: #00b894; margin-bottom: 40px;">
+          <button type="button" id="addRequirementBtn" class="save-button" style="margin-bottom: 40px;">
             + Add requirement
           </button>
           <table>
           <input type="text" placeholder="criteria 1" />
           <input type="text" placeholder="criteria 2" />
           <div id="extraCriteria"></div>
-          <button type="button" id="addCriteriaBtn" class="save-button" style="background-color: #00b894; margin-top: 15px;">
+          <button type="button" id="addCriteriaBtn" class="save-button" style="margin-top: 15px;">
             + Add criteria
           </button>
-          <table>
-            <thead>
-              <tr>
-                <th>Customer Name</th>
-                <th>Customer Id</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td></td><td></td></tr>
-              <tr><td></td><td></td></tr>
-            </tbody>
-          </table>
-      
-          <button class="save-button">Save</button>
-        </div>
-      </div>          
-    </header>
+          <div class="container-fluid pt-5">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Customer Id</th>
+                  <th scope="col">Customer Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Valeria Soumelidi</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Maria Spachou</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="save-button">Save</button> 
+          </div>
+        </div>  
+      </div>
   </body>
 </html>
