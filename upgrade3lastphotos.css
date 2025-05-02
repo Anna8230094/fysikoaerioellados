@@ -26,8 +26,8 @@
   body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #aabdf4;
-    padding-top: 80px; 
+    background-color:rgba(63, 109, 237, 0.44);
+    
   }
   
 
@@ -44,16 +44,17 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 100px; 
-    padding-bottom: 40px;
+    
   }
   
   .form-box {
     background-color: white;
     padding: 30px;
-    border-radius: 20px;
-    width: 500px;
+    width: 700px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    position: relative;
+    margin-top: 30px;
   }
   
   .form-box h2 {
@@ -66,44 +67,48 @@
     font-size: 40px;
     line-height: 48px;
     color: #291AF6;
-    width: 432px;
     height: 56px;
   }
   
 
   .form-box input {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 40px;
-    border: 2px solid #369efb;
-    border-radius: 25px;
-    background-color: #d3c5f5;
+    border: 2px solid #045092;
+    border-radius: 40px;
+    background-color: #e2daf8;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-    background-color: #d3c5f5;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  th, td {
-    text-align: center;
-    padding: 8px;
-    border: 1px solid #369efb;
-  }
   
   .upgrade-button {
-    margin-top: 20px;
-    width: 100%;
+    margin-top: 50px;
+    width: 30%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-    background-color: #369efb;
-    border: none;
-    color: white;
     font-size: 16px;
-    border-radius: 15px;
+    border: 2px solid #045092;
+    border-radius: 40px;
+    background-color: #e2daf8;
     cursor: pointer;
   }
+  table.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  
+  table.table tr td, table.table tr th {
+  background-color: #e2daf8;
+  border: 2px solid #369efb;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
   

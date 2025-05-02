@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +16,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   </style>
-  <script src="inserts.js"></script>
+  <script src="upgrade.js"></script>
   
 
   <body>
@@ -66,7 +66,7 @@
     </header>
       <div class="container">
         <div class="form-box">
-          <h2>Update Data</h2>
+          <h2>Upgrade Data</h2>
           <input type="text" placeholder="Campaign name..." />
           <input type="text" placeholder="duration - dd/mm/yyyy - dd/mm/yyyy" />
           <input type="text" placeholder="requirement 1" />
@@ -75,35 +75,42 @@
           <button type="button" id="addRequirementBtn" class="upgrade-button" style="background-color: #d9d3f6; margin-bottom: 40px;">
             + Add requirement
           </button>
-          <table>
+
+          
           <input type="text" placeholder="criteria 1" />
           <input type="text" placeholder="criteria 2" />
           <div id="extraCriteria"></div>
-          <button type="button" id="addCriteriaBtn" class="upgrade-button" style="background-color: #386fc8; margin-top: 15px;">
+
+          <button type="button" id="addCriteriaBtn" class="upgrade-button" style="background-color: #d9d3f6; margin-top: 15px;">
             + Add criteria
           </button>
-          <table>
+          <div class="container-fluid pt-5">
+            <table class="table">
             <thead>
               <tr>
-                <th>Customer Name</th>
-                <th>Customer Id</th>
+                <th scope="col">Customer Id</th>
+                <th scope="col">Customer Name</th>
               </tr>
             </thead>
             <tbody>
               
                 <tr>
-                  <td>Γιώργος Παπαδάκης</td>
                   <td>c00185</td>
+                  <td>Γιώργος Παπαδάκης</td>
                 </tr>
                 <tr>
-                  <td>Μαρία Γιαννοπούλου</td>
                   <td>c02001</td>
+                  <td>Μαρία Γιαννοπούλου</td>
                 </tr>
              
             </tbody>
           </table>
       
-          <button class="upgrade-button">Upgrade</button>
+          <button type="button" id="addToTheTableBtn" class="upgrade-button" style="margin-top: 15px;">
+            + Add Customer
+          </button>
+          <button class="upgrade-button">Upgrade</button> 
+        </div>
         </div>
       </div>          
     </header>
@@ -122,3 +129,5 @@
     </script>
   </body>
 </html>
+
+
