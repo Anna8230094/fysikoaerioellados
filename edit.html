@@ -11,12 +11,12 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="upgrade3lastphotos.css" />
+    <link rel="stylesheet" href="edit.css" />
   </head>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   </style>
-  <script src="upgrade.js"></script>
+  <script src="edit.js"></script>
   
 
   <body>
@@ -62,17 +62,19 @@
             </ul>
           </div>
         </div>
+        </div>
       </nav>
     </header>
       <div class="container">
         <div class="form-box">
+            <div class="notice">Έγιναν αλλαγές σε κάποια πεδία. Ελέγξτε πριν αποθηκεύσετε </div>
           <h2>Upgrade Data</h2>
           <input type="text" placeholder="Campaign name..." />
           <input type="text" placeholder="duration - dd/mm/yyyy - dd/mm/yyyy" />
           <input type="text" placeholder="requirement 1" />
           <input type="text" placeholder="requirement 2" />
           <div id="extraRequirements"></div>
-          <button type="button" id="addRequirementBtn" class="upgrade-button" style="background-color: #d9d3f6; margin-bottom: 40px;">
+          <button type="button" id="addRequirementBtn" class="save-button" style="background-color: #d9d3f6; margin-bottom: 40px;">
             + Add requirement
           </button>
 
@@ -81,7 +83,7 @@
           <input type="text" placeholder="criteria 2" />
           <div id="extraCriteria"></div>
 
-          <button type="button" id="addCriteriaBtn" class="upgrade-button" style="background-color: #d9d3f6; margin-top: 15px;">
+          <button type="button" id="addCriteriaBtn" class="save-button" style="background-color: #d9d3f6; margin-top: 15px;">
             + Add criteria
           </button>
           <div class="container-fluid pt-5">
@@ -95,36 +97,40 @@
             <tbody>
               
                 <tr>
-                  <td>c00185</td>
-                  <td>Γιώργος Παπαδάκης</td>
+                  <td>c0005</td>
+                  <td>Νικολέτα Τσακίρη</td>
                 </tr>
                 <tr>
                   <td>c02001</td>
                   <td>Μαρία Γιαννοπούλου</td>
                 </tr>
+                <tr>
+                    <td>c00255</td>
+                    <td> Αλέξανδρος Δεμίρης </td>
+                  </tr>
              
             </tbody>
           </table>
       
-          <button type="button" id="addToTheTableBtn" class="upgrade-button" style="margin-top: 15px;">
+          <button type="button" id="addToTheTableBtn" class="save-button" style="margin-top: 15px;">
             + Add Customer
           </button>
           
-          <button class="upgrade-button" onclick="window.location.href='edit.html'">Upgrade</button>
+          <button class="save-button" onclick="window.location.href='edit.html'"> Save Changes </button>
         </div>
         </div>
-      </div>          
+                
     </header>
     <script>
       window.onload = function () {
         const inputs = document.querySelectorAll("input");
         if (inputs.length >= 6) {
-          inputs[0].value = "Καμπάνια για προώθηση συμπληρωματικών προιόντων";
-          inputs[1].value = "01/01/2025 - 28/02/2025";
+          inputs[0].value = "Καμπάνια για συμπλήρωση ελλειπών στοιχείων";
+          inputs[1].value = "01/03/2025 - 31/05/2025";
           inputs[2].value = "Ενεργό συμβόλαιο σε πακέτο φυσικού αερίου ή ρεύματος";
-          inputs[3].value = "Να μην έχει ληξιπρόθεσμες οφειλές.";
-          inputs[4].value = "Ιστορικό κατανάλωσης πάνω από 500kWh τον μήνα.";
-          inputs[5].value = "Αν έχει δείξει ενδιαφέρον σε προηγούμενες προωθήσεις.";
+          inputs[3].value = "Έχει ληξιπρόθεσμες οφειλές, λόγω μη απεσταλμένων λογαριασμών";
+          inputs[4].value = "Έλλειψη διευθύνσης email, αριθμού κινητού";
+          inputs[5].value = "Το email έχει αποτύχει σε προηγούμενες αποστολές";
         }
       };
     </script>
