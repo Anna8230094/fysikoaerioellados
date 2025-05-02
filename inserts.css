@@ -97,16 +97,20 @@
     background-color: #e2daf8;
     cursor: pointer;
   }
-  
-  table {
+
+
+
+  table.table {
     border-collapse: collapse;
     width: 100%;
+    margin-bottom: 50px;
   }
+
   
-  td, th {
-    border: 2px solid #369efb;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
+  table.table tr td, table.table tr th {
+  background-color: #e2daf8;
+  border: 2px solid #369efb;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
