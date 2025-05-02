@@ -29,8 +29,6 @@
     margin: 0;
     font-family: sans-serif;
     background: rgba(63, 109, 237, 0.44);
-    padding-top: 80px; 
-    margin-top: 0;
   }
  
   .person {
@@ -42,25 +40,25 @@
   }
   
   .container {
-    margin-top: 0%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-bottom: 40px;
   }
   
   .form-box {
-    margin-top: 0%;
     background-color: white;
     padding: 30px;
     width: 700px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    position: relative;
+    margin-top: 30px;
   }
   
   .form-box h2 {
     text-align: center;
     color: #3200c4;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -83,29 +81,11 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  table {
-    width: 100%;
-    background-color: #cac1e1;
-    border-collapse: collapse;
-    border: 2px solid #369efb;
-  }
-  
-  
-  td {
-    height: 2rem;
-    text-align: center;
-    border: 2px solid #369efb;
-   }
-   
-   
-   th {
-    border: 2px solid #369efb;
-   }
-   
+
+
   
   .save-button {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 30%;
     display: block; 
     margin-left: auto;
@@ -116,5 +96,17 @@
     border-radius: 40px;
     background-color: #e2daf8;
     cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #369efb;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
   }
   
