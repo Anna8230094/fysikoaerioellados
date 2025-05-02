@@ -52,6 +52,16 @@ body {
   position: relative;
   margin-top: 30px;
 }
+#search-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  height: 900px;
+  padding-top:15% ;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
 
 .form-box h2 {
   text-align: center;
