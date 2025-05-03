@@ -42,14 +42,15 @@
   margin-right: 20px;
 }
 
-
-
-
-body {
+body{
   padding-left: 0px;
   margin-left: 0px;
   align-items: center;
   font-family: "Poppins", serif;
+}
+
+
+body, #sidebar{
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -95,7 +96,6 @@ body {
   position: relative;
 
 }
-
 
 
 .icon-badge .badge {
@@ -189,17 +189,5 @@ time {
   background: #ffffff70;
 }
 
-.sidebar-nav{
-  /* background: radial-gradient(
-    circle,
-    rgba(148, 187, 233, 1) 100%
-  ); */
-  background: transparent;
-}
 
-.sidebar-header{
-  background: radial-gradient(
-    rgba(148, 187, 233, 1) 100%
-  );
-  
-}
+
