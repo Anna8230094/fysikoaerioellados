@@ -7,31 +7,21 @@
   <title> Calendar| Fysiko Aerio Ellados</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
-  <link rel="stylesheet" href="calendar.css" /> 
-  <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/css/coreui.min.css" rel="stylesheet" integrity="sha384-PDUiPu3vDllMfrUHnurV430Qg8chPZTNhY8RUpq89lq22R3PzypXQifBpcpE1eoB" crossorigin="anonymous"></head>
+  <link rel="stylesheet" href="calendar.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/css/coreui.min.css" rel="stylesheet"
+    integrity="sha384-PDUiPu3vDllMfrUHnurV430Qg8chPZTNhY8RUpq89lq22R3PzypXQifBpcpE1eoB" crossorigin="anonymous">
+</head>
 
 <body>
   <header class="pb-5 mb-5 d-block">
     <nav class="navbar navbar-expand-lg mb-5" id="navbar_page">
       <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item" id="nav_item">
-              <img
-                class="navbar-item"
-                src="/images/fysiko aerio ellados mask.png"
-              />
+            <img class="navbar-item" src="/imag/fysiko.png" />
             </li>
             <li class="nav-item" id="nav_item">
               <p class="navbar-text" style="color: aliceblue">
@@ -40,20 +30,10 @@
             </li>
           </ul>
           <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-            <li class="nav-item" id="nav_item">
-              <p class="navbar-item" style="color: aliceblue">Home</p>
-            </li>
-            <li class="nav-item" id="nav_item">
-              <p class="navbar-item" style="color: aliceblue">Info</p>
-            </li>
-            <li class="nav-item" id="nav_item">
-              <button
-                type="button"
-                class="btn text-light"
-                onclick="window.location.href='login.html'"
-              >
-                <img class="person" src="/images/User.SVG.png" height="25" />
-                Log in
+            <li class="nav-item">
+              <button type="button" class="btn text-light" onclick="window.location.href='login.html'">
+                Aggeliki Megalou
+                <img class="person" src="/imag/avatar_image.png" height="25" />
               </button>
             </li>
           </ul>
@@ -61,115 +41,107 @@
       </div>
     </nav>
   </header>
-<!-- end of navbar -->
-<div class="container-fluid pt-5 pe-5 me-5 ">
-  <div class = "container-fluid pt-5 pe-0 me-0 ">
-    <div class="row">
-      <div class="col-1 ms-5 mt-5" >
+  <!-- end of navbar -->
+  <div class="container-fluid pt-5 pe-5 me-5 ">
+    <div class="container-fluid pt-5 pe-0 me-0 ">
+      <div class="row">
+        <div class="col-1 ms-5 mt-5">
           <div class="sidebar sidebar-narrow-unfoldable border-end" style="margin-top:130px;">
             <div class="sidebar-header border-bottom">
               <div class="sidebar-brand"><span class="icon-badge">
-                <img src="images/house.png" alt="House"  height="25" />
-              </span></div>
+                  <img src="imag/house.png" alt="House" height="25" />
+                </span></div>
             </div>
             <ul class="sidebar-nav">
               <li class="nav-title">Campaign Dashboard</li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="nav-icon cil-speedometer"></i> Calendar
+                <a class="nav-link " href="#">
+                  <i class="nav-icon cil-puzzle"></i> Calendar <img src="imag/Frame.png" alt="Calendar" style="margin-left: 40%;"/>
                 </a>
+               
               </li>
               <li class="nav-item">
-                <button
-                    type="button"
-                    class="btn text-light"
-                    onclick="window.location.href='submit.html'"
-                  >
-                <a class="nav-link" href="#">
-                  <i class="nav-icon cil-speedometer"></i> Submit call data
-                </a>
-              </button>
-              </li>
-              <li class="nav-item nav-group show">
-                <button
-                    type="button"
-                    class="btn text-light"
-                    onclick="window.location.href='reports.html'"
-                  >
-                <a class="nav-link nav-group-toggle" href="#">
-                  <i class="nav-icon cil-puzzle"></i> Check Reports
-                </a>
+                <button type="button" class="btn text-light" onclick="window.location.href='upgradedata.html'">
+                  <a class="nav-link " href="#">
+                    <i class="nav-icon cil-puzzle"></i> Upgrade Data <img src="imag/Data icon.png" class="icon-right" alt="Upgrade Data" style="margin-left: 25%;" />
+                  </a>
+                  
                 </button>
-                <ul class="nav-group-items">
-                  <li class="nav-item">
-                    <button
-                    type="button"
-                    class="btn text-light"
-                    onclick="window.location.href='inserts.html'"
-                  >
-                    <a class="nav-link" href="#">
-                      <i class="nav-icon cil-puzzle"></i> Data
-                    </a>
-                  </button>
-                  </li>
-                  <li class="nav-item">
-                    <button
-                    type="button"
-                    class="btn text-light"
-                    onclick="window.location.href='check.html'"
-                  >
-                    <a class="nav-link" href="#">
-                      <i class="nav-icon cil-puzzle"> </i>Check data errors
-                    </a>
-                  </button>
-                  </li>
-                </ul>
+              </li>
+              <li class="nav-item"  id = "dashboard">
+                <button type="button" class="btn text-light" onclick="window.location.href='inserts.html'">
+                  <a class="nav-link" href="#">
+                    <i class="nav-icon cil-puzzle"></i> Insert Data <img src="imag/Data icon.png" class="icon-right" alt="Insert Data" style="margin-left: 30%;" />
+                  </a>
+                </button>
+              </li>
+              <li class="nav-item ">
+                <button type="button" class="btn text-light" onclick="window.location.href='reports.html'">
+                  <a class="nav-link nav-group-toggle" href="#">
+                    <i class="nav-icon cil-puzzle"></i> Check Reports <img src="imag/checkreports.png" class="icon-right" alt="Check Reports" style="margin-left: 25%;" />
+                  </a>
+                </button>
               </li>
             </ul>
-        </div> 
+          </div>
         </div>
         <div class="col-10  justify-content-center align-items-start pt-5">
           <div class="card bg-transparent pe-4 ms-5" style="width: 1300px;height: 55rem;">
-            <div class="container pt-4 ps-5" >
-              <h1  id = "h1_cal">February 2022</h1>
-              <p><h4>Call Plan for Campaigns</h4></a>
+            <div class="container pt-4 ps-5">
+              <h1 id="h1_cal">February 2022</h1>
+              <p>
+              <h4>Call Plan for Campaigns</h4></a>
             </div>
             <ul class="pt-3" id="ul_calendar">
-              <li id="calendar"><time datetime="2022-02-01">1</time> <div class="event-info">
-                <strong>Γιώργος Π.</strong><br>
-                 6981234567<br>
-                 Καμπάνια: Νέα Προσφορά
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-02">2</time><div class="event-info">
-                <strong>Μαρία Α.</strong><br>
-                6978765432<br>
-                Καμπάνια:Υπενθύμιση Πληρωμής
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-03">3</time><div class="event-info">
-                <strong>Νίκος Σ.</strong><br>
-                6931237890<br>
-                Καμπάνια: Έρευνα Ικανοποίησης
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-04">4</time><div class="event-info">
-                <strong>Ελένη Δ.</strong><br>
-                6945674321<br>
-                Καμπάνια: Αναβάθμιση Πακέτου
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-05">5</time><div class="event-info">
-                <strong>Κώστας Μ.</strong><br>
-                6901122334<br>
-                Καμπάνια:Υπενθύμιση Λογαριασμού
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-06">6</time><div class="event-info">
-                <strong>Αναστασία Ζ.</strong><br>
-                6988887766<br>
-                Καμπάνια: Έκπτωση για σύσταση φίλου
-              </div></li>
-              <li id="calendar"><time datetime="2022-02-07">7</time> <div class="event-info">
-                <strong>Μιχάλης Τ.</strong><br>
-                6977773333<br>
-                Καμπάνια:Επιβεβαίωση νέου πελάτη
-              </div></li>
+              <li id="calendar"><time datetime="2022-02-01">1</time>
+                <div class="event-info">
+                  <strong>Γιώργος Π.</strong><br>
+                  6981234567<br>
+                  Καμπάνια: Νέα Προσφορά
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-02">2</time>
+                <div class="event-info">
+                  <strong>Μαρία Α.</strong><br>
+                  6978765432<br>
+                  Καμπάνια:Υπενθύμιση Πληρωμής
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-03">3</time>
+                <div class="event-info">
+                  <strong>Νίκος Σ.</strong><br>
+                  6931237890<br>
+                  Καμπάνια: Έρευνα Ικανοποίησης
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-04">4</time>
+                <div class="event-info">
+                  <strong>Ελένη Δ.</strong><br>
+                  6945674321<br>
+                  Καμπάνια: Αναβάθμιση Πακέτου
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-05">5</time>
+                <div class="event-info">
+                  <strong>Κώστας Μ.</strong><br>
+                  6901122334<br>
+                  Καμπάνια:Υπενθύμιση Λογαριασμού
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-06">6</time>
+                <div class="event-info">
+                  <strong>Αναστασία Ζ.</strong><br>
+                  6988887766<br>
+                  Καμπάνια: Έκπτωση για σύσταση φίλου
+                </div>
+              </li>
+              <li id="calendar"><time datetime="2022-02-07">7</time>
+                <div class="event-info">
+                  <strong>Μιχάλης Τ.</strong><br>
+                  6977773333<br>
+                  Καμπάνια:Επιβεβαίωση νέου πελάτη
+                </div>
+              </li>
               <li id="calendar"><time datetime="2022-02-08">8</time></li>
               <li id="calendar"><time datetime="2022-02-09">9</time></li>
               <li id="calendar"><time datetime="2022-02-10">10</time></li>

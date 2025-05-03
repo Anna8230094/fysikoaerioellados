@@ -77,7 +77,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  color: white; /* optional: white text for contrast */
+  color: white; 
 }
 
 .icon-badge {
@@ -179,10 +179,11 @@ time {
 }
 
 .sidebar-nav{
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle,
     rgba(148, 187, 233, 1) 100%
-  );
+  ); */
+  background: transparent;
 }
 
 .sidebar-header{
