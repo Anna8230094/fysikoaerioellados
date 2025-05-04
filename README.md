@@ -50,7 +50,7 @@ Users can add:
 - Requirements
 - Criteria
 
-![Insert Data](/images2/1_Insert.png)
+![Insert Data](/images2/2_Insert.png)
 
 ![Insert Data](/images2/1_Insert.png)
 
