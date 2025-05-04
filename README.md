@@ -68,6 +68,8 @@ Allows employees to update existing campaigns with new customer conditions and c
 
 ![2_update.png](/images2/4_update.png)
 
+![2_update.png](/images2/5_update.png)
+
 ---
 
 ### 📈 Check Reports
