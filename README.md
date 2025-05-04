@@ -111,5 +111,7 @@ Customer Service Agents can review and manage scheduled calls via an integrated 
 
 - All screenshots are part of the project presentation.
 - The UI was prototyped with Figma and implemented manually using HTML/CSS/JS (no frameworks).
-- This project was developed for the course “Ανάλυση & Σχεδιασμός Πληροφοριακών Συστημάτων”.
+- This project was developed for the course “Information Systems Analysis & Design”.
+- The firt page is Home.html.
+- No password is required on the login page.
 
