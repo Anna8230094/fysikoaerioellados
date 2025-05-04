@@ -10,7 +10,7 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="/css/login.css" />
   </head>
   
   <body>
@@ -116,9 +116,9 @@
 <div class="fixed-bg-container">
   <div class="container-fluid mt-5 pt-5 pb-5">
     <div class="container text-center mb-0">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="row row-cols-1 row-cols-md-2 g-4" id="col">
         <div class="col p-0" id="square1">
-          <p class="p-5">
+          <p class="p-5" id="text_1">
             <strong
               >CAMPAIGN MANAGEMENT <br />
               PLATFORM FOR FYSIKO<br />
@@ -129,11 +129,47 @@
         <div class="col p-0" id="square2">
           <img
             class="img-fluid"
-            src="/images/campaign.jpg"
+            src="/images-log_in/campaign.jpg"
             style="width: 100%"
           />
         </div>
-        <div class="col p-0" id="square3"></div>
+        <div class="col p-0" id="square3">
+          <p id="text_3">
+            Our platform provides the capability to conduct campaigns through
+            a wide array of innovative and state-of-the-art approaches,
+            tailored to meet modern communication demands
+          </p>
+          <img
+            src="/images-log_in/message.png"
+            alt="message"
+            width="50"
+            id="message"
+          />
+          <img
+            src="/images-log_in/laptop.png"
+            alt="laptop"
+            width="70"
+            id="laptop"
+          />
+          <img
+            src="/images-log_in/phone.png"
+            alt="phone"
+            width="70"
+            id="phone"
+          />
+          <img
+            src="/images-log_in/email.png"
+            alt="email"
+            width="70"
+            id="email"
+          />
+          <img
+            src="/images-log_in/robot.png"
+            alt="robot"
+            width="90"
+            id="robot"
+          />
+        </div>
         <div
           class="col pt-5 d-flex flex-column align-items-center justify-content-center"
           id="square4"
@@ -144,7 +180,7 @@
             class="btn text-light"
             style="background-color: #023e8a"
             id="btn_log_in"
-          
+            onclick="window.location.href='login.html'"
           >
             Log in
           </button>
