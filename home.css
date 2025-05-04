@@ -1,0 +1,184 @@
+/* Author Anna Maria Megalou */
+#navbarText {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+#navbar_page {
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background-color: #0077b6;
+  position: fixed;
+}
+.nav-item {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#square3 {
+  width: 600px;
+  height: 350px;
+  background-color: #ffe9d0;
+  position: relative;
+  border: 4px solid #291af6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+#square1 {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #03045e;
+  text-shadow: 0px 7px 6px rgba(0, 0, 0, 0.25);
+}
+
+#Log_in {
+  height: 600px;
+  width: 389px;
+  align-items: center;
+  display: flex;
+
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #03045e;
+
+  text-shadow: 0px 7px 6px rgba(0, 0, 0, 0.25);
+}
+
+#square4 {
+  background-color: #ffffff;
+  height: 300px;
+  width: 600px;
+}
+
+#square2 {
+  width: 600px;
+  border: 4px solid #291af6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn_log_in {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#circle {
+  width: 383px;
+  height: 375px;
+  margin-top: 5%;
+  background: #0077b6;
+  filter: blur(10px);
+  z-index: 1;
+  position: absolute;
+}
+
+#circle2 {
+  width: 277px;
+  margin-left: 700px;
+  height: 253px;
+  background: #0077b6;
+  filter: blur(7.5px);
+  z-index: 1;
+  position: absolute;
+  margin-top: 30%;
+}
+
+#circle3 {
+  width: 167px;
+  height: 169px;
+  margin-left: 10px;
+  background: #0077b6;
+  filter: blur(7.5px);
+  z-index: 1;
+  position: absolute;
+  margin-top: 50%;
+}
+
+@media (max-width: 1500px) {
+  #circle,#circle2,#circle3{
+    display: none !important;
+  }
+  #square1, #square2, #square3{
+    margin-bottom: 5%;
+  }
+  #square1{
+    margin-top:10px;
+    margin-bottom: 5%
+  }
+  #body_square, #col, #accordion{
+    justify-content: center !important;
+  }
+  #accordion{
+    margin-bottom: 30% !important;
+    margin-top: 0% !important;
+  }
+}
+
+#message{
+  margin-bottom:70px;
+  margin-left:30px;
+
+}
+
+#laptop{
+  margin-bottom:70px;
+  margin-left: 50px;
+
+}
+#phone{
+  margin-bottom:70px;
+  margin-left: 35px;
+  margin-right: 40px;
+}
+
+#email{
+  margin-bottom: 70px;
+  margin-right: 50px;
+  margin-right: 15px;
+}
+
+#robot{
+  margin-bottom:70px;
+  margin-left: 40px;
+}
+
+#text_1{
+  margin-top: 50px;
+}
+
+#text_3{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 50px;
+padding-bottom: 5%;
+font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align:center;
+color: #03045E;
+text-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+
+}
+
+#accordion{
+  z-index: 3;
+  margin-bottom: 40%;
+  margin-top: 12%;
+}
