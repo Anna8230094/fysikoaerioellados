@@ -12,7 +12,7 @@
     />
     <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/css/coreui.min.css" rel="stylesheet"
     integrity="sha384-PDUiPu3vDllMfrUHnurV430Qg8chPZTNhY8RUpq89lq22R3PzypXQifBpcpE1eoB" crossorigin="anonymous">
-    <link rel="stylesheet" href="inserts.css" />
+    <link rel="stylesheet" href="/css/inserts.css" />
   </head>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -20,44 +20,26 @@
   <script src="inserts.js"></script>
 
   <body>
-    <header class="pb-5">
-      <nav class="navbar navbar-expand-lg" id="navbar_page">
+    <header class="pb-5 mb-5 d-block">
+      <nav class="navbar navbar-expand-lg mb-5" id="navbar_page">
         <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <img
-                  class="navbar-item"
-                  img
-                  src="images/fysikoaerioelladosmask.png"
-                />
-              </li>
-              <li class="nav-item">
+              <img class="navbar-item" src="/imag/fysiko.png" />
+              <li class="nav-item" id="nav_item">
                 <p class="navbar-text" style="color: aliceblue">
                   fysikoaerioellados
                 </p>
               </li>
             </ul>
             <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <button
-                  type="button"
-                  class="btn text-light"
-                  onclick="window.location.href='login.html'"
-                >
-                  <img class="person" src="images/man.png" height="25" />
-                  Valeria Soumelidi
+              <li class="nav-item" id="nav_item">
+                <button type="button" class="btn text-light" onclick="window.location.href='login.html'">
+                  Aggeliki Megalou
+                  <img class="person" src="/imag/avatar_image.png" height="25" />
                 </button>
               </li>
             </ul>
@@ -70,22 +52,22 @@
         <div class="col-1 ms-5 mt-5">
           <div
             class="sidebar sidebar-narrow-unfoldable border-end bg-gradient"
-            style="margin-top: 80px"
+            style="margin-top: 135px"
             id="sidebar"
           >
             <div class="sidebar-header border-bottom">
               <div class="sidebar-brand">
-                <img src="images/house.png" alt="House" height="25" />
+                <img src="/images/house.png" alt="House" height="25" />
               </div>
             </div>
             <ul class="sidebar-nav">
               <li class="nav-title">Campaign Dashboard</li>
               <li class="nav-item"  style="width: 170px;">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="calendar.html">
                   <i class="nav-icon cil-puzzle"></i>
-                  <p> Calendar</p>
+                  <p style="margin-left: 5px;"> Calendar</p>
                   <img
-                    src="images/Frame.png"
+                    src="/images/Frame.png"
                     alt="Calendar"
                     style="margin-left: 40%"
                     width=""
@@ -103,7 +85,7 @@
                     <i class="nav-icon cil-puzzle"></i> 
                     <p style="margin-left:-10px;">Upgrade Data</p>
                     <img
-                    src="images/Data icon.png"
+                    src="/images/Data icon.png"
                       class="icon-right"
                       alt="Upgrade Data"
                       style="margin-left: 15%"
@@ -116,12 +98,13 @@
                   type="button"
                   class="btn text-light"
                   onclick="window.location.href='inserts.html'"
+                
                 >
                   <a class="nav-link" href="#">
                     <i class="nav-icon cil-puzzle"></i> 
                     <p style="margin-left:-10px;" >Insert Data</p>
                     <img
-                      src="images/Data icon.png"
+                      src="/images/Data icon.png"
                       class="icon-right"
                       alt="Insert Data"
                       style="margin-left: 30%"
@@ -140,7 +123,7 @@
                     <i class="nav-icon cil-puzzle"></i>
                     <p style="margin-left:-10px;">Check Reports</p> 
                     <img
-                      src="images/checkreports.png"
+                      src="/images/checkreports.png"
                       class="icon-right"
                       alt="Check Reports"
                       style="margin-left: 10%"

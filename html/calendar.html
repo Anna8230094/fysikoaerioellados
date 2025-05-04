@@ -7,7 +7,7 @@
   <title> Calendar| Fysiko Aerio Ellados</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
-  <link rel="stylesheet" href="calendar.css" />
+  <link rel="stylesheet" href="/css/calendar.css" />
   <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/css/coreui.min.css" rel="stylesheet"
     integrity="sha384-PDUiPu3vDllMfrUHnurV430Qg8chPZTNhY8RUpq89lq22R3PzypXQifBpcpE1eoB" crossorigin="anonymous">
 </head>
@@ -22,7 +22,6 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <img class="navbar-item" src="/imag/fysiko.png" />
-            </li>
             <li class="nav-item" id="nav_item">
               <p class="navbar-text" style="color: aliceblue">
                 fysikoaerioellados
@@ -30,7 +29,7 @@
             </li>
           </ul>
           <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item" id="nav_item">
               <button type="button" class="btn text-light" onclick="window.location.href='login.html'">
                 Aggeliki Megalou
                 <img class="person" src="/imag/avatar_image.png" height="25" />
@@ -46,39 +45,86 @@
     <div class="container-fluid pt-5 pe-0 me-0 ">
       <div class="row">
         <div class="col-1 ms-5 mt-5 " >
-          <div class="sidebar sidebar-narrow-unfoldable border-end bg-gradient" style="margin-top:135px;" id="sidebar">
+          <div
+            class="sidebar sidebar-narrow-unfoldable border-end bg-gradient"
+            style="margin-top: 135px"
+            id="sidebar"
+          >
             <div class="sidebar-header border-bottom">
               <div class="sidebar-brand">
-                  <img src="imag/house.png" alt="House" height="25" />
-               </div>
+                <img src="/images/house.png" alt="House" height="25" />
+              </div>
             </div>
             <ul class="sidebar-nav">
               <li class="nav-title">Campaign Dashboard</li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">
-                  <i class="nav-icon cil-puzzle"></i> Calendar <img src="imag/Frame.png" alt="Calendar" style="margin-left: 40%;"/>
+              <li class="nav-item"  style="width: 170px;">
+                <a class="nav-link" href="#">
+                  <i class="nav-icon cil-puzzle" id="#"></i>
+                  <p style="margin-left:5px ;"> Calendar</p>
+                  <img
+                    src="/images/Frame.png"
+                    alt="Calendar"
+                    style="margin-left: 40%"
+                    width=""
+                  />
                 </a>
-               
               </li>
               <li class="nav-item">
-                <button type="button" class="btn text-light" onclick="window.location.href='upgradedata.html'">
-                  <a class="nav-link " href="#">
-                    <i class="nav-icon cil-puzzle"></i> Upgrade Data <img src="imag/Data icon.png" class="icon-right" alt="Upgrade Data" style="margin-left: 25%;" />
-                  </a>
-                  
-                </button>
-              </li>
-              <li class="nav-item"  id = "dashboard">
-                <button type="button" class="btn text-light" onclick="window.location.href='inserts.html'">
+                <button
+                  type="button"
+                  class="btn"
+                  onclick="window.location.href='upgradedata.html'"
+                  style="width: 180px;"
+                >
                   <a class="nav-link" href="#">
-                    <i class="nav-icon cil-puzzle"></i> Insert Data <img src="imag/Data icon.png" class="icon-right" alt="Insert Data" style="margin-left: 30%;" />
+                    <i class="nav-icon cil-puzzle" id="nav_icon"></i> 
+                    <p style="margin-left:-10px;">Upgrade Data</p>
+                    <img
+                    src="/images/Data icon.png"
+                      class="icon-right"
+                      alt="Upgrade Data"
+                      style="margin-left: 15%"
+                    />
                   </a>
                 </button>
               </li>
-              <li class="nav-item ">
-                <button type="button" class="btn text-light" onclick="window.location.href='reports.html'">
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn"
+                  onclick="window.location.href='inserts.html'"
+                  style="width: 180px;"
+                >
+                  <a class="nav-link" href="#">
+                    <i class="nav-icon cil-puzzle"></i> 
+                    <p style="margin-left:-10px;" >Insert Data</p>
+                    <img
+                      src="/images/Data icon.png"
+                      class="icon-right"
+                      alt="Insert Data"
+                      style="margin-left: 30%"
+                    />
+                  </a>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn text-light"
+                  onclick="window.location.href='reports.html'"
+                  style="width: 180px;"
+                >
                   <a class="nav-link nav-group-toggle" href="#">
-                    <i class="nav-icon cil-puzzle"></i> Check Reports <img src="imag/checkreports.png" class="icon-right" alt="Check Reports" style="margin-left: 25%;" />
+                    <i class="nav-icon cil-puzzle"></i>
+                    <p style="margin-left:-10px;">Check Reports</p> 
+                    <img
+                      src="/images/checkreports.png"
+                      class="icon-right"
+                      alt="Check Reports"
+                      style="margin-left: 10%"
+                      id="check"
+                
+                    />
                   </a>
                 </button>
               </li>
@@ -89,8 +135,7 @@
           <div class="card bg-transparent pe-4 ms-5" style="width: 1300px;height: 55rem;">
             <div class="container pt-4 ps-5">
               <h1 id="h1_cal">February 2022</h1>
-              <p>
-              <h4>Call Plan for Campaigns</h4></a>
+              <h4>Call Plan for Campaigns</h4>
             </div>
             <ul class="pt-3" id="ul_calendar">
               <li id="calendar"><time datetime="2022-02-01">1</time>
@@ -175,3 +220,4 @@
   </div>
 
 </body>
+</html>
