@@ -70,12 +70,12 @@
     height: 56px;
   }
   .notice {
-    background-color: #d44848;
+    text-align: center; /* προσθεσα αυτο  */
+    background-color: #3571f4b4; /* αλλαξα αυτο και εσβησα μια γραμμη πιο κατω  */
     color: #f8f6f1;
     padding: 12px 20px;
     border-radius: 10px;
     margin-bottom: 25px;
-    border-left: 5px solid #d44848;
     font-weight: 500;
     font-family: "Inter", sans-serif;
     
