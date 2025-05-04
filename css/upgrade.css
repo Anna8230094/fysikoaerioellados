@@ -1,34 +1,41 @@
+#navbarText {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
 #navbar_page {
   width: 100%;
   z-index: 1000;
   top: 0;
   background-color: #0077b6;
   position: fixed;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
-#navbarText {
-  margin: 0;
-  color: white;
-  font-size: 20px;
+body, #sidebar{
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
-.nav-item {
-  margin: 0 20px;
-  color: white;
+#fysiko{
+  margin-top: 20%;
 }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background: rgba(63, 109, 237, 0.44);
+#nav_item {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
+
+#nav_icon {
+  font-size: 24px;
+  color: #3d5afe;
+  padding: 10px;
+}
 .person {
   width: 70px;  
   height: 70px;
@@ -38,9 +45,11 @@ body {
 }
 
 .container {
+  margin-top: -10px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 .form-box {
@@ -48,14 +57,12 @@ body {
   padding: 30px;
   width: 700px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  margin-top: 0;
   position: relative;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0%;
 }
 #search-form {
   background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 12px;
   height: 900px;
   padding-top:15% ;
   min-height: 100vh;
@@ -66,7 +73,6 @@ body {
 .form-box h2 {
   text-align: center;
   color: #3200c4;
-  margin-bottom: 30px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -91,19 +97,11 @@ body {
 }
 
 
-body {
-  font-family: Arial, sans-serif;
-  background: rgba(63, 109, 237, 0.44);
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+
 
 .container {
   text-align: center;
-  padding: 20px;
+
 }
 
 
@@ -130,13 +128,12 @@ select {
   text-align: center;
 }
 
-.search-btn {
+#search-btn {
   margin-top: 50px;
   padding: 10px 30px;
   font-size: 16px;
   background-color: #d9d3f6;
   border: 2px solid #2d00f7;
-  border-radius: 20px;
   cursor: pointer;
   color: #2d00f7;
   font-weight: bold;

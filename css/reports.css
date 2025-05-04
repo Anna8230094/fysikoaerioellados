@@ -39,12 +39,7 @@ body, #sidebar{
 }
 
   
-  body {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: #aabdf4;
-    padding-top: 80px;
-  }
+ 
   
   /* Person image */
   .person {
