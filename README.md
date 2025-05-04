@@ -77,6 +77,7 @@ Allows employees to update existing campaigns with new customer conditions and c
 Provides campaign analytics and revenue breakdowns by type, region, and growth.
 
 ![Reports Page](/images2/1_reports.png)
+
 ![Reports Page](/images2/2_reports.png)
 
 ---
